@@ -1,0 +1,289 @@
+@import url(fonts.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ProstoOne"
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header start */
+
+.header__nav{
+    background:#282828 ;
+    padding: 6px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__list{
+    display: flex;
+    gap: 30px;
+}
+
+.header__link{
+    color: #fff;  
+}
+
+.header__socials{
+    display: flex;
+    gap: 25px;
+}
+
+.header {
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__content {
+   
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url(../img/header/Header.png) center center / cover no-repeat;
+}
+
+.header__title {
+    font-size: 100px;
+    color: #fff;
+    font-family: "ProstoOne-Regular";
+    margin-bottom: 37px;
+}
+
+.header__txt { 
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #171718;
+    padding: 13px 14px;
+    font-family: "Monsterrat-Medium"; 
+    font-size: 20px;  
+}
+
+.header__txt img{
+    margin: -1px 11px; 
+}
+
+.section{
+    background: #151515;
+    padding: 79px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+
+.section__content-txt{  
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 538px;
+    padding-top: 50px;
+  
+}
+
+.section__content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 79px;
+   
+    
+}
+
+.section__content1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 79px;
+    flex-wrap: wrap;
+}
+
+
+.section__content-image{
+    margin-top: 50px;
+    max-width: 552px;
+     width: 100%; 
+     padding: 30px 0 0px 30px;
+}
+.section__content-image1{
+    
+        /* margin-top: 50px;  */
+        max-width: 552px;
+         width: 100%; 
+    
+}
+
+
+.section__content3{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    
+}
+
+.section__content3 .section__content-txt{
+    font-size: 20px;
+    font-family: "Montserrat-Bold";
+    text-align: right;
+    max-width: 333px;
+    width: 100%;
+    padding-bottom: 66px;
+}
+
+.section__content3 .section__content-txt2{
+    font-size: 20px;
+    font-family: "Montserrat-Bold";
+    color: #fff;
+    max-width: 333px;
+    width: 100%;
+}
+
+
+
+
+.section__content3 p {
+    width: 333px;
+    max-width: 100%;
+}
+
+.section__content-imag{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.section__content-imag::before,
+.section__content-imag::after{
+    content: '' ;
+    position: absolute;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+
+
+}
+
+
+.section__content-imag::before{
+    left: -60px;
+}
+
+.section__content-imag::after{
+    right: -24px;
+}
+
+.footer{
+    background: #282828;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.footer__list{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__link{
+    color: #fff;
+}
+
+.footer__content-link{
+    display: flex;
+    gap: 29px;
+}
+
+
+.section2__box {
+    width: 255px;
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 55px;
+    background-color: #151515;
+    flex-wrap: wrap;
+}
+
+
+
+.section2__title{
+    font-size: 20px;
+  }
+  .section2__image{
+    padding: 10px 0;
+  }
+  .section__txt{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .section2__link{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 75px;
+    background: #000;
+  }
+
+  .section__content3-img{
+    max-width: 268px;
+    width: 100%;
+    padding: 10px;
+  }
